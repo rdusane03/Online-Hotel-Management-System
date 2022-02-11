@@ -1,8 +1,6 @@
-package com.hotel.model;
+package  com.hotel.demo.model;
 
-import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "feedback")
 public class Feedback {
 
 	

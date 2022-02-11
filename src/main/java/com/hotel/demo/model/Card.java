@@ -1,8 +1,8 @@
-package com.hotel.model;
+package  com.hotel.demo.model;
 
-import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "carddetails")
+
+
 public class Card {
 	
 	private String card_username;

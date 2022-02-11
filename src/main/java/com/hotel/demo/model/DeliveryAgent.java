@@ -1,12 +1,8 @@
-package com.hotel.model;
+package  com.hotel.demo.model;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-
-@Document(collection = "")
 public class DeliveryAgent {
 	
-	@Id
+
 	private String agent_id;
 	private String agent_name;
 	private String agent_email;
